@@ -1,0 +1,14 @@
+---
+# vars file for create-k8s-cluster
+
+cluster_name: "k8s.dev.yashdoza.me"
+state_store: "s3://k8s.dev.yashdoza.me"
+master_count: 1
+master_size: "t2.medium"
+dns_zone: "dev.yashdoza.me"
+bastion: "true"
+node_count: "1"
+node_size: "t2.medium"
+node_volume: "20"
+
+ssh_key: ~/.ssh/id_rsa.pub

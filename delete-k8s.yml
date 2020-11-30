@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+    - delete-k8s-cluster
